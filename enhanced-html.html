@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AquaPure - Industrial wastewater filtration solutions for agricultural use">
+    <title>Newater Filtration System</title>
+    <!-- Fixed CSS link reference -->
+    <link rel="stylesheet" href="enhanced-css.css">
+    <!-- Corrected script link -->
+    <script src="enhanced-script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Added favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">Newater</div>
+        <button id="mobile-menu-btn" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#prototype">Prototype</a>
+            <a href="#team">Team</a>
+            <a href="#why-us">Why Choose Us</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#user-guide">User Guide</a>
+            <a href="#order" class="cta-button">Order Now</a>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Close menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="mobile-nav-links">
+            <a href="#home">Home</a>
+            <a href="#prototype">Prototype</a>
+            <a href="#team">Team</a>
+            <a href="#why-us">Why Choose Us</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#user-guide">User Guide</a>
+            <a href="#order" class="cta-button">Order Now</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Industrial Wastewater Filtration Solution</h1>
+            <p class="fade-in delay-1">An eco-friendly, closed-cycle automated filtration system designed to purify
+                industrial wastewater for agricultural use.</p>
+            <a href="#order" class="cta-button fade-in delay-2">Get Started</a>
+        </div>
+        <!-- Added scroll down indicator -->
+        <div class="scroll-indicator">
+            <a href="#prototype" aria-label="Scroll down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Prototype Section -->
+    <section id="prototype" class="prototype-section">
+        <div class="container">
+            <h2>Our Prototype</h2>
+            <div class="prototype-container">
+                <div class="prototype-model">
+                    <div class="model-container">
+                        <!-- Added lazy loading for better performance -->
+                        <img src="Photos/3d.jpg" alt="3D Model of Filtration System" class="model-image" loading="lazy">
+                        <div class="hotspot" style="top: 25%; left: 15%;" data-component="Ionization Chamber">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-label">Ionization Chamber</div>
+                        </div>
+                        <div class="hotspot" style="top: 35%; left: 45%;" data-component="Coagulation Unit">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-label">Coagulation Unit</div>
+                        </div>
+                        <div class="hotspot" style="top: 60%; left: 25%;" data-component="UV Treatment">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-label">Pre-filter System</div>
+                        </div>
+                        <div class="hotspot" style="top: 60%; left: 70%;" data-component="Pre-filter System">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-label">UV Treatment</div>
+                        </div>
+                        <div class="hotspot" style="top: 80%; left: 50%;" data-component="Control Unit">
+                            <span class="hotspot-dot"></span>
+                            <div class="hotspot-label">Control Unit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prototype-info">
+                    <h3>4-Stage Filtration System</h3>
+                    <div class="filtration-stages">
+                        <div class="stage">
+                            <div class="stage-icon"><i class="fas fa-bolt"></i></div>
+                            <h4>Ionization</h4>
+                            <p>Breaks down contaminants using charged metal ions</p>
+                        </div>
+                        <div class="stage">
+                            <div class="stage-icon"><i class="fas fa-vial"></i></div>
+                            <h4>Coagulation</h4>
+                            <p>Captures suspended particles and harmful chemicals</p>
+                        </div>
+                        <div class="stage">
+                            <div class="stage-icon"><i class="fas fa-radiation"></i></div>
+                            <h4>UV Treatment</h4>
+                            <p>Destroys bacterial contaminants using ultraviolet light</p>
+                        </div>
+                        <div class="stage">
+                            <div class="stage-icon"><i class="fas fa-filter"></i></div>
+                            <h4>Pre-filter</h4>
+                            <p>Final stage capturing remaining particles</p>
+                        </div>
+                    </div>
+                    <div class="prototype-results">
+                        <h3>Prototype Results</h3>
+                        <div class="result">
+                            <span class="result-value">485 ppm</span>
+                            <span class="result-label">Final Salinity</span>
+                            <span class="result-original">(Originally 1220 ppm)</span>
+                        </div>
+                        <div class="result">
+                            <span class="result-value">6.88</span>
+                            <span class="result-label">pH Level</span>
+                            <span class="result-original">(Target: 6.7-7.0)</span>
+                        </div>
+                        <div class="result">
+                            <span class="result-value">65.05%</span>
+                            <span class="result-label">Total Efficiency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="real-prototype">
+                <h3>Real Prototype Implementation</h3>
+                <img src="Photos/real.jpg" alt="Real implementation of the prototype" class="real-image" loading="lazy">
+                <br>
+                <h3>Testing the protoype</h3>
+                <img src="Photos/real-2.jpg" alt="Real implementation of the prototype" class="real-image"
+                    loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="Photos/Mohamed Photo-2.jpg" alt="Team Member 1" loading="lazy">
+                    </div>
+                    <h3>Mohamed Fawzy</h3>
+                    <p>Project Lead & Web Developer</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="Photos/Emad.jpg" alt="Team Member 2" loading="lazy">
+                    </div>
+                    <h3>Abdelrahman Emadeldin</h3>
+                    <p>Technical Developer</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="Photos/Hassan.jpg" alt="Team Member 3" loading="lazy">
+                    </div>
+                    <h3>Abdelrahman Hassan</h3>
+                    <p>Writer</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="Photos/Salah.jpg" alt="Team Member 3" loading="lazy">
+                    </div>
+                    <h3>Abdelrahman Salah</h3>
+                    <p>Researcher</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="why-us-section">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <div class="benefits-container">
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Our system creates zero additional waste and operates using sustainable principles</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-tint"></i></div>
+                    <h3>Water Conservation</h3>
+                    <p>Helps save 65% of industrial wastewater that would otherwise be discarded</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>Agricultural Benefits</h3>
+                    <p>Produces water suitable for irrigation and agricultural applications</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-cog"></i></div>
+                    <h3>Automated System</h3>
+                    <p>Fully automated operation with minimal maintenance requirements</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Proven Results</h3>
+                    <p>Demonstrated 65% efficiency in real-world tests with industrial wastewater</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon"><i class="fas fa-industry"></i></div>
+                    <h3>Industrial Solution</h3>
+                    <p>Specifically designed for food processing facilities like BBC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies-section">
+        <div class="container">
+            <h2>Our Technologies</h2>
+            <div class="tech-container">
+                <div class="tech">
+                    <div class="tech-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Ionization Technology</h3>
+                    <p>Using precisely controlled electric charges to break down complex contaminants</p>
+                </div>
+                <div class="tech">
+                    <div class="tech-icon"><i class="fas fa-microscope"></i></div>
+                    <h3>Advanced Coagulation</h3>
+                    <p>Special binding agents that capture both chemical and biological contaminants</p>
+                </div>
+                <div class="tech">
+                    <div class="tech-icon"><i class="fas fa-radiation"></i></div>
+                    <h3>UV Disinfection</h3>
+                    <p>High-intensity ultraviolet radiation that eliminates coliform and non-coliform bacteria</p>
+                </div>
+                <div class="tech">
+                    <div class="tech-icon"><i class="fas fa-filter"></i></div>
+                    <h3>Multi-Layer Filtration</h3>
+                    <p>Specialized filter media capturing particles down to 10 microns</p>
+                </div>
+                <div class="tech">
+                    <div class="tech-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Automated Control</h3>
+                    <p>Microcontroller-based system monitoring and adjusting all parameters in real-time</p>
+                </div>
+                <div class="tech">
+                    <div class="tech-icon"><i class="fas fa-recycle"></i></div>
+                    <h3>Closed-Cycle Design</h3>
+                    <p>Zero waste operation with optimal resource utilization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Guide Section -->
+    <section id="user-guide" class="user-guide-section">
+        <div class="container">
+            <h2>User Guide</h2>
+            <div class="guide-container">
+                <div class="guide-tabs">
+                    <button class="guide-tab active" data-tab="installation" aria-selected="true">Installation</button>
+                    <button class="guide-tab" data-tab="operation" aria-selected="false">Operation</button>
+                    <button class="guide-tab" data-tab="maintenance" aria-selected="false">Maintenance</button>
+                    <button class="guide-tab" data-tab="replacement" aria-selected="false">Component
+                        Replacement</button>
+                </div>
+                <div class="guide-content">
+                    <div class="guide-panel active" id="installation" role="tabpanel">
+                        <h3>Installation Guide</h3>
+                        <ol>
+                            <li>
+                                <h4>Site Preparation</h4>
+                                <p>Prepare a level, waterproof area near the wastewater source, with access to
+                                    electricity.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Plumbing Connection</h4>
+                                <p>Connect inlet pipe to the wastewater source and outlet pipe to collection tank.</p>
+                            </li>
+                            <li>
+                                <h4>Electrical Setup</h4>
+                                <p>Connect the control unit to a stable 220V power source with proper grounding.</p>
+                            </li>
+                            <li>
+                                <h4>Sensor Calibration</h4>
+                                <p>Follow the calibration steps in the manual for pH and salinity sensors.</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="guide-panel" id="operation" role="tabpanel">
+                        <h3>Operation Guide</h3>
+                        <ol>
+                            <li>
+                                <h4>System Startup</h4>
+                                <p>Press the power button and wait for the green indicator light before proceeding.</p>
+                            </li>
+                            <li>
+                                <h4>Initial Priming</h4>
+                                <p>Run the system with clean water for 5 minutes to prime all components.</p>
+                            </li>
+                            <li>
+                                <h4>Processing Mode</h4>
+                                <p>Select "Auto" mode for standard operation or "Manual" for custom settings.</p>
+                            </li>
+                            <li>
+                                <h4>Monitoring</h4>
+                                <p>Check the digital display for real-time readings of flow rate, pH, and salinity.</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="guide-panel" id="maintenance" role="tabpanel">
+                        <h3>Maintenance Guide</h3>
+                        <ul>
+                            <li>
+                                <h4>Daily Check</h4>
+                                <p>Inspect for leaks and check sensor readings on the digital display.</p>
+                            </li>
+                            <li>
+                                <h4>Weekly Cleaning</h4>
+                                <p>Perform backwash cycle by pressing the "Backwash" button on the control panel.</p>
+                            </li>
+                            <li>
+                                <h4>Monthly Maintenance</h4>
+                                <p>Clean external filters and inspect electrode conditions in the ionization chamber.
+                                </p>
+                            </li>
+                            <li>
+                                <h4>Quarterly Maintenance</h4>
+                                <p>Full system inspection including all valves, seals, and sensor calibration.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="guide-panel" id="replacement" role="tabpanel">
+                        <h3>Component Replacement Schedule</h3>
+                        <div class="replacement-table">
+                            <div class="replacement-item">
+                                <h4>Ionization Electrodes</h4>
+                                <p><strong>Replace:</strong> Every 6-8 months</p>
+                                <p><strong>Signs:</strong> Decreased efficiency, visible corrosion</p>
+                            </div>
+                            <div class="replacement-item">
+                                <h4>Coagulation Media</h4>
+                                <p><strong>Replace:</strong> Every 3-4 months</p>
+                                <p><strong>Signs:</strong> Cloudy filtered water, slow flow rate</p>
+                            </div>
+                            <div class="replacement-item">
+                                <h4>UV Lamp</h4>
+                                <p><strong>Replace:</strong> Every 12 months</p>
+                                <p><strong>Signs:</strong> Indicator light on control panel</p>
+                            </div>
+                            <div class="replacement-item">
+                                <h4>Pre-filter Element</h4>
+                                <p><strong>Replace:</strong> Every 2-3 months</p>
+                                <p><strong>Signs:</strong> Reduced flow rate, visible debris</p>
+                            </div>
+                            <div class="replacement-item">
+                                <h4>pH Sensor</h4>
+                                <p><strong>Replace:</strong> Every 12-18 months</p>
+                                <p><strong>Signs:</strong> Inconsistent readings, calibration failure</p>
+                            </div>
+                            <div class="replacement-item">
+                                <h4>Pump Seals</h4>
+                                <p><strong>Replace:</strong> Every 12 months</p>
+                                <p><strong>Signs:</strong> Noise during operation, leakage</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order-section">
+        <div class="container">
+            <h2>Order Our Prototype</h2>
+            <div class="order-container">
+                <div class="product-showcase">
+                    <div class="product-image">
+                        <img src="Photos/selling.jpg" alt="AquaPure Filtration System" loading="lazy">
+                    </div>
+                    <div class="product-details">
+                        <h3>Newater Industrial Filtration System</h3>
+                        <p class="product-description">
+                            Complete 4-stage filtration system with automated controls, designed for industrial
+                            wastewater
+                            processing.
+                        </p>
+                        <div class="product-specs">
+                            <div class="spec">
+                                <span class="spec-label">Processing Capacity:</span>
+                                <span class="spec-value">Up to 9L per hour</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Power Consumption:</span>
+                                <span class="spec-value">168W</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Dimensions:</span>
+                                <span class="spec-value">120 × 80 × 60 cm</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-label">Weight:</span>
+                                <span class="spec-value">6 kg</span>
+                            </div>
+                        </div>
+                        <div class="product-pricing">
+                            <span class="price">$50</span>
+                            <span class="price-note">Includes installation guide & 1-year warranty</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-form">
+                    <h3>Place Your Order</h3>
+                    <form id="purchase-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Shipping Address</label>
+                            <textarea id="address" name="address" required></textarea>
+                        </div>
+                        <div class="form-group payment-options">
+                            <label>Payment Method</label>
+                            <div class="payment-methods">
+                                <label class="payment-method">
+                                    <input type="radio" name="payment" value="credit" checked>
+                                    <span class="payment-icon"><i class="fas fa-credit-card"></i></span>
+                                    <span>Credit Card</span>
+                                </label>
+                                <label class="payment-method">
+                                    <input type="radio" name="payment" value="bank">
+                                    <span class="payment-icon"><i class="fas fa-university"></i></span>
+                                    <span>Bank Transfer</span>
+                                </label>
+                                <label class="payment-method">
+                                    <input type="radio" name="payment" value="paypal">
+                                    <span class="payment-icon"><i class="fab fa-paypal"></i></span>
+                                    <span>PayPal</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="order-button">Complete Purchase</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@Newater-systems.com">info@Newater-systems.com</a></p>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+201234567890">+20 123 456 7890</a></p>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <h3>Address</h3>
+                        <p>6th Of October STEM October High School for Boys<br>6th of October, Egypt</p>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Business Hours</h3>
+                        <p>Sunday - Thursday: 9AM - 5PM</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" name="contact-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="contact-email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" name="contact-subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="contact-message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="contact-button">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Newater</h3>
+                <p>Industrial wastewater filtration solutions</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <h4>Navigation</h4>
+                    <a href="#home">Home</a>
+                    <a href="#prototype">Prototype</a>
+                    <a href="#team">Team</a>
+                    <a href="#why-us">Why Choose Us</a>
+                    <a href="#technologies">Technologies</a>
+                </div>
+                <div class="footer-nav">
+                    <h4>Resources</h4>
+                    <a href="#user-guide">User Guide</a>
+                    <a href="#">Technical Documentation</a>
+                    <a href="#">Research Paper</a>
+                    <a href="#">FAQs</a>
+                </div>
+                <div class="footer-nav">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Warranty Information</a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Newater Filtration Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Properly linked JavaScript file -->
+    <script src="enhanced-script.js"></script>
+</body>
+
+</html>
